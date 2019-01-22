@@ -1,0 +1,8 @@
+- name: minha primeira playbook
+  hosts: all
+  tasks: 
+   - name: criando um usuario
+     user: 
+      name: devops 
+      password: '$1$LwkdVy6Q$bY/cjmZXfokepcpqyugBs/'
+      shell: /bin/bash 

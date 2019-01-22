@@ -1,0 +1,6 @@
+ 
+
+- name: criando minha primeiro infra como codigo full
+  hosts: all
+  roles: 
+   - web 
