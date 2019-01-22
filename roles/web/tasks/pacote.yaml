@@ -1,0 +1,6 @@
+
+- name: instalando o apache 
+  hosts: all
+  package: 
+   name: 
+    - apache 
